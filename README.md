@@ -1,2 +1,2 @@
 # FeritJava
- Java projects on collage
+ Java projects on college
