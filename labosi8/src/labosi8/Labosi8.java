@@ -17,6 +17,7 @@ public class Labosi8 {
     public static void main(String[] args) 
     {
         ServerOne posluzitelj1 = new ServerOne();
+        ServerTwo posluzitelj1Datagram = new ServerTwo();
     }
     
 }

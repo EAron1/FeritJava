@@ -37,6 +37,15 @@ public class ServerOne
        //čitamo i pišemo podatke nazad klijentu // sve dok on ne pošalje poruku BYE. boolean done = false;
        while (!done && (linija = is.readLine()) != null) 
        {
+           if(is.readLine().contentEquals("psovka1") ||
+            is.readLine().contentEquals("psovka2") ||
+            is.readLine().contentEquals("psovka3") ||
+            is.readLine().contentEquals("uvreda1") ||
+            is.readLine().contentEquals("uvreda2") ||
+            is.readLine().contentEquals("uvreda3"))
+           {
+              linija = "******";
+           }
            os.println("Echo: "+linija.toUpperCase());
            if(linija.trim().equals("BYE")) done=true;
        }

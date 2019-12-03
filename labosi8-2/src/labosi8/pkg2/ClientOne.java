@@ -33,8 +33,9 @@ public class ClientOne
         for(int i=0;i<eho.length; ++i) ps.println(eho[i]);
         //sad nam tu istu poruku vraća posluzivač
         String linija=null;
-        while((linija=bis.readLine()) != null) {
-        System.out.println(linija);
+        while((linija=bis.readLine()) != null) 
+        {
+            System.out.println(linija);
         }
         }
         catch (Exception e)

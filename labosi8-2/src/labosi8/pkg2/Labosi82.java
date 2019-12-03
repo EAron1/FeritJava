@@ -17,6 +17,7 @@ public class Labosi82 {
     public static void main(String[] args) 
     {
         ClientOne klijent = new ClientOne();
+        ClientTwo klijentDatagram = new ClientTwo();
     }
     
 }
